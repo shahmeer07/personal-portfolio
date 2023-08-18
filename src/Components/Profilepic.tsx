@@ -1,5 +1,3 @@
-import React from "react";
-
 const Profilepic = () => {
   return (
     <div className="fixed mt-[90px]">

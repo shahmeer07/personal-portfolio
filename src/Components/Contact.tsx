@@ -1,4 +1,3 @@
-import React from "react";
 import { AiFillGithub, AiFillLinkedin, AiFillFacebook } from "react-icons/ai";
 
 const Contact = () => {
