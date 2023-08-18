@@ -1,6 +1,6 @@
 export default {
   ABOUT_HEADING:
-    "Hello there! Shahmeer here :D,\n I’m React and React Native Developer based in Karachi,Pakistan",
+    "Hello there! Shahmeer here :D,\n I’m a React and React Native Developer based in Karachi,Pakistan",
   ABOUT_DESC:
     "I am a passionate and dedicated Mobile and Web developer determined on providing exceptional user experiences. I thrive on transforming complex ideas into intuitive and visually appealing designs. With a keen eye for detail and a user-centered approach, I strive to deliver impactful solutions that engage and delight users. Let's collaborate to bring your digital products to life!",
 

@@ -6,6 +6,9 @@ import Introduction from "./Components/Introduction";
 import About from "./Components/About";
 import Services from "./Components/Services";
 import Progressbar from "./Components/Progressbar";
+import Contact from "./Components/Contact";
+import Skills from "./Components/Skills";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
@@ -17,15 +20,20 @@ function App() {
       grid grid-cols-1 md:grid-cols-3
       "
       >
-        <div className="col-span-2 p-5 mt-[90px]">
+        <div className="col-span-2 p-5 mt-[90px] bg-black">
           <Introduction />
           <About />
           <Services />
+          <div className="mt-10">
+            <Contact />
+            <Skills />
+          </div>
         </div>
         <div>
           <Progressbar />
           <Profilepic />
         </div>
+        <Footer />
       </div>
     </>
   );

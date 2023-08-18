@@ -22,7 +22,7 @@ const Header = () => {
   return (
     <div
       className="flex items-center fixed
-    w-full justify-between border-b-[1px] bg-white"
+    w-full justify-between border-b-[1px] bg-black"
     >
       <div className="w-[90px] h-[90px] bg-black ">
         <img
@@ -31,7 +31,7 @@ const Header = () => {
         />
         <h6 className="text-white pl-1">Shahmeer</h6>
       </div>
-      <div className="flex gap-14">
+      <div className="flex gap-14 text-white">
         {menu.map((item) => (
           <div className="cursor-pointer hover:underline ">
             <h2>{item.name}</h2>
