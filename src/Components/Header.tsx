@@ -1,22 +1,4 @@
 const Header = () => {
-  const menu = [
-    {
-      id: 1,
-      name: "HOME",
-    },
-    {
-      id: 2,
-      name: "SKILLS",
-    },
-    {
-      id: 3,
-      name: "PROJECTS",
-    },
-    {
-      id: 4,
-      name: "CONTACT",
-    },
-  ];
   return (
     <div
       className="flex items-center fixed
@@ -29,12 +11,10 @@ const Header = () => {
         />
         <h6 className="text-white pl-1">Shahmeer</h6>
       </div>
-      <div className="flex gap-14 text-white">
-        {menu.map((item) => (
-          <div className="cursor-pointer hover:underline ">
-            <h2>{item.name}</h2>
-          </div>
-        ))}
+      <div className="text-white text-center whitespace-nowrap transition-opacity hover:opacity-75">
+        <p className="text-lg font-semibold">
+          Aspiring Software Engineer, Crafting Digital Solutions with Passion!
+        </p>
       </div>
       <div
         className="w-[90px] h-[90px]

@@ -31,6 +31,15 @@ const Contact = () => {
           <AiFillLinkedin className="text-gray-600 hover:text-white text-2xl" />
         </a>
       </div>
+      <p className="mt-8 text-white">
+        Reach out at email{" "}
+        <a
+          href="mailto:shahmeerk3000@gmail.com"
+          className="text-green-500 hover:underline"
+        >
+          shahmeerk3000@gmail.com
+        </a>
+      </p>
     </div>
   );
 };
